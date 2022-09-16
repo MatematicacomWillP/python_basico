@@ -1,4 +1,4 @@
-#==> Exemplo 1 --> Condicionais 
+#==> Exemplo 2 --> Condicionais 
 #   Faça um programa que receba dois números e 
 #   mostre qual deles é o maior, e se caso for iguais, 
 #   mostrar a mensagem dizendo que são iguais.
