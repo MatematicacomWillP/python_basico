@@ -9,4 +9,4 @@ Vídeo completo com a explicação e do corte da live de hoje 16/09/2022, está 
 Aula_03 --> 
 Temos então dois exercícios trabalhando com as condicionais em Python
 Vídeo completo com a explicação e do corte da live de hoje 23/09/2022, está disponível no meu canal do YouTube
---> link da Aula_03 -->
+--> link da Aula_03 --> https://youtu.be/IqqrXXmIkF0
