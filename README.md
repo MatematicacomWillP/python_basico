@@ -15,3 +15,8 @@ Aula_04 -->
 Temos então três exemplos trabalhando com o loop for e as condicionais em Python
 Vídeo completo com a explicação e do corte da live de hoje 30/09/2022, está disponível no meu canal do YouTube
 --> link da Aula_04 --> https://youtu.be/-4CXwDTJblg
+
+Aula_05 --> 
+Temos então uma passada nas funções básica de listas em Python
+Vídeo completo com a explicação e do corte da live de hoje 07/10/2022, está disponível no meu canal do YouTube
+--> link da Aula_05 --> 
