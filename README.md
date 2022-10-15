@@ -20,3 +20,9 @@ Aula_05 -->
 Temos então uma passada nas funções básica de listas em Python
 Vídeo completo com a explicação e do corte da live de hoje 07/10/2022, está disponível no meu canal do YouTube
 --> link da Aula_05 --> https://youtu.be/B47BUAKM--Y
+
+Aula_06 --> 
+Temos então uma lista com 3 exercícios com os arquivos nomeados Aula_05_1.py; Aula_05_2.py; Aula_05_3.py, onde 
+tem exercícios baseados com os assuntos das aulas anteriores.
+Vídeo completo com a explicação e do corte da live de hoje 14/10/2022, está disponível no meu canal do YouTube
+--> link da Aula_06 --> https://youtu.be/FoJU61IiAhk
