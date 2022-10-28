@@ -31,3 +31,8 @@ Aula_06 -->
 Temos então uma aula com slides sobre o tema Estrutura de Repetição [Loop Wihle].
 Vídeo completo com a explicação e do corte da live de hoje 21/10/2022, está disponível no meu canal do YouTube
 --> link da Aula_06--> https://youtu.be/tCyZ8PyAEEA
+
+Aula_De_Exercícios_02--> 
+Temos então uma lista com 2 exercícios sobre o loop While.
+Vídeo completo com a explicação e do corte da live de hoje 28/10/2022, está disponível no meu canal do YouTube
+--> link da Aula_De_Exercícios_02 --> https://youtu.be/BOOscLntWPc
