@@ -36,3 +36,6 @@ Aula_De_Exercícios_02-->
 Temos então uma lista com 2 exercícios sobre o loop While.
 Vídeo completo com a explicação e do corte da live de hoje 28/10/2022, está disponível no meu canal do YouTube
 --> link da Aula_De_Exercícios_02 --> https://youtu.be/BOOscLntWPc
+
+Projeto Estatística para Python
+Nesta primeira parte desse projeto, vamos ver: Entrada de dados; Mediana; Média --> Link do Projeto --> https://youtu.be/fHywmzZ6Rak
