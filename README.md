@@ -39,3 +39,6 @@ Vídeo completo com a explicação e do corte da live de hoje 28/10/2022, está 
 
 Projeto Estatística para Python
 Nesta primeira parte desse projeto, vamos ver: Entrada de dados; Mediana; Média --> Link do Projeto --> https://youtu.be/fHywmzZ6Rak
+
+Projeto Estatística para Python
+Nesta segunda parte desse projeto, vamos ver: Entrada de Moda e Média Ponderada --> Link do Projeto --> https://youtu.be/r8KJPmoLwtU
