@@ -39,3 +39,17 @@ if n % 2 == 0:
 else:
     mediana = dados1[n // 2]
 print('A madiana é: {}'.format(mediana))
+
+#== FAZENDO O CÁLCULO DA MODA ==#
+
+moda = set()
+e = dados1.count(dados1[0])
+for i in dados1:
+    temp = dados1.count(i)
+    if temp > e:
+        e = temp
+for i in dados1:
+    if dados1.count(i) == e:
+        moda.add(i)
+for i in moda:
+    print('A moda: {}'.format(i))
