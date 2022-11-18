@@ -42,3 +42,6 @@ Nesta primeira parte desse projeto, vamos ver: Entrada de dados; Mediana; Média
 
 Projeto Estatística para Python
 Nesta segunda parte desse projeto, vamos ver: Entrada de Moda e Média Ponderada --> Link do Projeto --> https://youtu.be/r8KJPmoLwtU
+
+Projeto Estatística para Python
+Nesta segunda parte desse projeto, vamos ver: Intervalo de Classe [Construção e Frequência] --> Link do Projeto --> https://youtu.be/JsrJXN8X7xc
