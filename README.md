@@ -37,11 +37,15 @@ Temos então uma lista com 2 exercícios sobre o loop While.
 Vídeo completo com a explicação e do corte da live de hoje 28/10/2022, está disponível no meu canal do YouTube
 --> link da Aula_De_Exercícios_02 --> https://youtu.be/BOOscLntWPc
 
-Projeto Estatística para Python
+Projeto Estatística para Python - [PARTE 1]
 Nesta primeira parte desse projeto, vamos ver: Entrada de dados; Mediana; Média --> Link do Projeto --> https://youtu.be/fHywmzZ6Rak
 
-Projeto Estatística para Python
+Projeto Estatística para Python - [PARTE 2]
 Nesta segunda parte desse projeto, vamos ver: Entrada de Moda e Média Ponderada --> Link do Projeto --> https://youtu.be/r8KJPmoLwtU
 
-Projeto Estatística para Python
+Projeto Estatística para Python - [PARTE 3]
 Nesta segunda parte desse projeto, vamos ver: Intervalo de Classe [Construção e Frequência] --> Link do Projeto --> https://youtu.be/JsrJXN8X7xc
+
+Projeto Estatística para Python - [PARTE 4]
+Nesta segunda parte desse projeto, vamos ver: Intervalo de Classe [Frequência Absoluta, Frequência Absoluta Acumulada, Frequência Relativa, Frequência Relativa Acumulada e Média do Intervalo da Amplitude de Classe] --> Link do Projeto --> https://www.youtube.com/watch?v=B8yeFxSOodo --> LIVE NO YOUTUBE 25/11/2022
+
