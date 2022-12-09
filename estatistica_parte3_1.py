@@ -2,7 +2,7 @@
 
 import math
 from pandas import*
-
+from matplotlib import pyplot as plt
 
 #== Entrada de dados ==#
 
@@ -45,17 +45,17 @@ print('A amplitude do intervalo: ',h)
 
 classe = []
 bins = []
-c = [] #Média do intervalo de classe
+Xi = [] #Média do intervalo de classe
 menor = min1
 max_amp = menor + h
 valor = menor
 bins.append(valor)
 while valor < max1:
     classe.append('{} |-- {}'.format(valor,valor + h))
-    media = (valor + (valor+h))/2
+    ponto_medio = (valor + (valor+h))/2
     valor += h
     bins.append(valor)
-    c.append(media)
+    Xi.append(ponto_medio)
 
 #== Contando as Frequências ==#
 
@@ -64,8 +64,12 @@ for i in dados:
 
 if ultimo == max1:
     fi = cut(dados, bins=k, right=False, include_lowest=False).value_counts().to_list()
+    plt.style.use('fivethirtyeight')
+    plt.hist(dados, bins=k, edgecolor='black')
 else:
     fi = cut(dados, bins, right=False, include_lowest=False).value_counts().to_list()
+    plt.style.use('fivethirtyeight')
+    plt.hist(dados, bins=bins, edgecolor='black')
 print(fi)
 
 Fi = [] #Frequência absoluta acumulada
@@ -81,7 +85,53 @@ for i in fi:
     fr.append('{:.3f}'.format(div))
     soma2 += div
     Fri.append('{:.3f}'.format(soma2))
-    
-df = DataFrame({'Classe':classe, 'fi':fi, 'Fi':Fi, 'fr':fr, 'Fr':Fri, 'c':c})
+
+#= Medidas de Dispersão =#
+
+Xf = list(zip(Xi,fi))
+XiFi = []
+soma3 = 0
+for i, j in Xf: # for i, j in zip(Xi,fi): #
+    i *= j
+    XiFi.append(i)
+    soma3 += i
+mediaX = soma3/n
+print('A média de Xi x Fi = ', mediaX)
+
+
+#= (Xi - mediaX); (Xi - mediaX)^2 =#
+XimediaX = []
+XimediaX2 = []
+for i in Xi:
+    sub = i - mediaX
+    XimediaX.append(sub)
+    XimediaX2.append(sub**2)
+
+Xi2f = list(zip(XimediaX2,fi))
+XimediaX2fi = []
+soma4 = 0
+for i, j in Xi2f:
+    i *= j
+    XimediaX2fi.append(i)
+    soma4 += i
+
+Variancia = soma4/n
+Desvio_Padrao = math.sqrt(Variancia)
+C_V = (Desvio_Padrao/mediaX)*100
+
+
+
+df = DataFrame({'Classe':classe, 'fi':fi, 'Xi':Xi, 'Xi*fi':XiFi, 'Xi-mediaX':XimediaX, '(Xi-mediaX)^2':XimediaX2, '(Xi-mediaX)^2*fi':XimediaX2fi })
 df = df.to_string(index = False)
 print(df)
+
+print('A variância = ', Variancia)
+print('O Desvio Padrão =', Desvio_Padrao)
+print('O Coeficiente de Variação = {:.2f}%'.format(C_V))
+
+plt.xticks(bins)
+plt.plot(Xi,fi, 'o-',color='red')
+for x, y in zip(Xi,fi):
+    label = f'{x}'
+    plt.annotate(label, (x,y), textcoords='offset points', xytext=(0,10), ha='center')
+plt.show()
