@@ -49,3 +49,5 @@ Nesta segunda parte desse projeto, vamos ver: Intervalo de Classe [Construção 
 Projeto Estatística para Python - [PARTE 4]
 Nesta segunda parte desse projeto, vamos ver: Intervalo de Classe [Frequência Absoluta, Frequência Absoluta Acumulada, Frequência Relativa, Frequência Relativa Acumulada e Média do Intervalo da Amplitude de Classe] --> Link do Projeto --> https://www.youtube.com/watch?v=B8yeFxSOodo --> LIVE NO YOUTUBE 25/11/2022
 
+Projeto Estatística para Python - [PARTE 6 - FINAL]
+Chegamos ao final do nosso Projeto de Estatística em Python, com a live final realizada no YouTube, no dia 09/12/2022, com a parte da plotagem do Histograma e do Ponto Médio, o nome do arquivo dos códigos (estatistica_parte3_1.py).
